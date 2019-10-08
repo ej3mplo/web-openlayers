@@ -1,0 +1,27 @@
+{
+  "name": "test-ol",
+  "version": "1.0.0",
+  "description": "Test of Open Layers to generate a marker",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server dist | webpack -w --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Bermudez Bermudez",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ol": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

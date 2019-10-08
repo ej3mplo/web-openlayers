@@ -1,0 +1,5 @@
+#Node modules
+/node_modules
+
+#Ignore webpack build
+/dist/bundle.js
